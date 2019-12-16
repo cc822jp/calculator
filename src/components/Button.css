@@ -1,0 +1,30 @@
+.Button {
+    cursor: pointer;
+    text-align: center;
+    line-height: 34px;
+    margin: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.Button--light {
+    background: #f1f3f4;
+    color: #202124;
+    border: 1px solid #f1f3f4;
+    border-radius: 4px;
+}
+
+.Button--dark {
+    background: #dfe1e5;
+    color: #202124;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Button--primary {
+    background: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4;
+    border-radius: 4px;
+}

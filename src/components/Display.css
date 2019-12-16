@@ -1,0 +1,17 @@
+.Display {
+  min-height: 72px;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  width: 98.5%;
+  padding: 10px 14px 0px 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.Display__Computation {
+
+}
+
+.Display__Result {
+  font-size: 30px;
+}

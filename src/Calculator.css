@@ -1,0 +1,14 @@
+.Calculator {
+  padding: 8px;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  margin: 8px;
+}
+
+.Calculator__Display {
+}
+
+.Calculator__Panel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
