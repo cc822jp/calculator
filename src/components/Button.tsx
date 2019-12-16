@@ -1,5 +1,5 @@
-import React from 'react';
-import './Button.css';
+import React from 'react'
+import './Button.css'
 
 export enum ButtonTypes {
   Light = 'light',
@@ -8,17 +8,21 @@ export enum ButtonTypes {
 }
 
 interface IButtonProps {
-  Label: string;
-  Type: ButtonTypes;
-  handleClick: (label: string) => void
+  label: string
+  value: string
+  type: ButtonTypes
+  onClick: (label: string, value: string) => void
 }
 
-const Button: React.FC<IButtonProps> = ({Label, Type, handleClick}) => {
+const Button: React.FC<IButtonProps> = ({ label, value, type, onClick }) => {
   return (
-    <div className={`Button Button--${Type}`} onClick={handleClick.bind(null, Label)}>
-      {Label}
+    <div
+      className={`Button Button--${type}`}
+      onClick={onClick.bind(null, label, value)}
+    >
+      {label}
     </div>
-  );
+  )
 }
 
-export default Button;
+export default Button
