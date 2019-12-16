@@ -2,10 +2,11 @@
   padding: 8px;
   border: 1px solid #ebebeb;
   border-radius: 8px;
-  margin: 8px;
+  max-width: 640px;
 }
 
 .Calculator__Display {
+  margin-bottom: 4px;
 }
 
 .Calculator__Panel {

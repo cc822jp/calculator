@@ -1,5 +1,5 @@
 .Display {
-  min-height: 72px;
+  height: 80px;
   border: 1px solid #ebebeb;
   border-radius: 8px;
   width: 98.5%;
@@ -9,9 +9,14 @@
 }
 
 .Display__Computation {
-
+  font-size: 0.8rem;
+  color: #70757A;
+  text-align: right;
 }
 
 .Display__Result {
-  font-size: 30px;
+  font-size: 2rem;
+  color: #000;
+  text-align: right;
+  line-height: 1.5;
 }
